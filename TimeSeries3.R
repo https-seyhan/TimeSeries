@@ -1,3 +1,4 @@
+# libraries
 library(TTR)
 library(Quandl)
 library(fma)
