@@ -29,7 +29,7 @@ cba_y.ts.0diff1 <- diff(cba_y.ts, differences=1)
 plot.ts(cba_y.ts.0diff1)
 summary(cba_y.ts.0diff1)
         
-        #ACF 
+#ACF 
 acf(cba_y.ts.0diff1 , lag.max= 30, main="ACF of First Difference Shares" )
 adf.test(cba_y.ts.0diff1)
 
