@@ -82,8 +82,6 @@ acf(inflation.ts.trendseasonadjusted[12:426], main= "Inflation Series Trend & Se
 pacf(inflation.ts.trendseasonadjusted[12:426], main="Inflation Series Trend & Seasonality Adjusted")
 
 
-
-
 #Dickey-Fuller test
 adf.test(inflation.ts.trendseasonadjusted[12:426])
 
