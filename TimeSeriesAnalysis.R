@@ -67,7 +67,6 @@ summary(inflation.ts.trendadjusted)
 acf(inflation.ts.trendadjusted[12:426])
 pacf(inflation.ts.trendadjusted[12:426])
 
-
 inflation.ts.seasonallyadjusted.decomp <- decompose(inflation.ts.seasonallyadjusted, "additive")
 plot(inflation.ts.seasonallyadjusted.decomp)
 
