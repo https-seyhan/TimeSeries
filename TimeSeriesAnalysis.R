@@ -112,8 +112,6 @@ fitInflationARIMA <- Arima(macrodata.ts.inflation, order=c(12,0,2))
 summary(fitInflationARIMA)
 Box.test(residuals(fitInflationARIMA ), lag=24, fitdf=4, type="Ljung")
 
-
-
 #ARIMA##############################################################
 
 fitInflationARIMA <- Arima(macrodata.ts.inflation, order=c(12,1,2))
