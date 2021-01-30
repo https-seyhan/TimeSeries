@@ -19,7 +19,6 @@ sd(macrodata.ts.cpi)
 plot.ts(macrodata.ts.cpi)
 
 ##Take the first difference of cpi.
-
 inflation.ts <- diff(macrodata.ts.cpi, difference=1)*100 
 plot(inflation.ts)
 
