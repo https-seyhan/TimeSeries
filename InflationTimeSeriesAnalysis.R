@@ -161,7 +161,6 @@ tsdisplay(residuals(fitInflationSARIMA),  main="SARIMA(12,1,1)(12,1,1) with 12 p
 Box.test(residuals(fitInflationSARIMA), lag=24, fitdf=7, type="Ljung")
 summary(fitInflationSARIMA)
 
-
 fitInflationSARIMA <- Arima(macrodata.ts.inflation, order=c(24,1,2), seasonal= list(order=c(1,1,1), period=12))
 tsdisplay(residuals(fitInflationSARIMA),  main="SARIMA(24,1,2)(1,1,1) with 12 periods per season")
 
