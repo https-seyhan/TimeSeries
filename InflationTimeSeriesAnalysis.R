@@ -58,8 +58,6 @@ sd(inflation.ts.trendadjusted)
 
 New.inflation.ts.trendadjusted  <- time(inflation.ts.trendadjusted )
 plot.ts(inflation.ts.trendadjusted); abline(reg=lm(inflation.ts.trendadjusted ~ New.inflation.ts.trendadjusted  ))
-sd()
-
 summary(inflation.ts.trendadjusted)
 
 #ACF PACF
