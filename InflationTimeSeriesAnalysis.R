@@ -138,10 +138,8 @@ rawinflation.ar<-ar(macrodata.ts.inflation, method="mle")
 rawinflation.ar
 plot(rawinflation.ar$res)
 
-
 acf(rawinflation.ar$res[13:415])
 pacf(rawinflation.ar$res[12:426])
-
 
 #mean
 mean(macrodata.ts.inflation)
