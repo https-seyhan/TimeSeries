@@ -124,7 +124,6 @@ fitInflationARIMA <- Arima(macrodata.ts.inflation, order=c(24,1,4)) #
 summary(fitInflationARIMA)
 Box.test(residuals(fitInflationARIMA ), lag=24, fitdf=4, type="Ljung")
 
-
 acf(fitInflationARIMA$res[13:415], main="ACF of ARIMA")
 
 plot(forecast(fitInflationARIMA))
