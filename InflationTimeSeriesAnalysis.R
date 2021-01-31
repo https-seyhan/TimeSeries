@@ -234,8 +234,6 @@ plot(browsers.ts.Internet.Explorer.8.0)
 plot(browsers.ts.Internet.Explorer.8.0.seasonjusted)
 sd(browsers.ts.Internet.Explorer.8.0.seasonjusted)
 
-
-
 #Remove Trend and seasonality
 browsers.ts.Internet.Explorer.8.0.trendseasonadjusted <- browsers.ts.Internet.Explorer.8.0 - browsers.ts.Internet.Explorer.8.0.decomp$trend - browsers.ts.Internet.Explorer.8.0.decomp$seasonal
 plot(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted)
