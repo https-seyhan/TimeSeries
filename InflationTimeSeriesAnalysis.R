@@ -218,7 +218,6 @@ var(New.browser8.0 )
 
 plot(stl(browsers.ts.Internet.Explorer.8.0, 'periodic'))
 
-
 #Remove trend component.
 browsers.ts.Internet.Explorer.8.0.trendadjusted <- browsers.ts.Internet.Explorer.8.0 - browsers.ts.Internet.Explorer.8.0.decomp$trend
 plot(browsers.ts.Internet.Explorer.8.0)
