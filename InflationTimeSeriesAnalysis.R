@@ -173,7 +173,6 @@ plot(forecast(fitInflationSARIMA , h=12))
 forecast(fitInflationSARIMA, h=1) #forecast for April 2014
 forecast(fitInflationSARIMA, h=12)
 
-
 ########################PART 2########################
 
 browsers <-read.csv("browsermarket01.csv", sep=",", header=TRUE)
