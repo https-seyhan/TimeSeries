@@ -189,7 +189,6 @@ acf(browsers.ts.Internet.Explorer.8.0 )
 #Dickey-Fuller test of the time series
 adf.test(browsers.ts.Internet.Explorer.8.0)
 
-
 browsers.ts.Internet.Explorer.8.0diff1 <- diff(browsers.ts.Internet.Explorer.8.0, differences=1)
 plot.ts(browsers.ts.Internet.Explorer.8.0diff1)
 summary(browsers.ts.Internet.Explorer.8.0diff1)
