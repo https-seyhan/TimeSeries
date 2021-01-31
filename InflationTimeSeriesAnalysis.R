@@ -76,7 +76,6 @@ sd(inflation.ts.trendseasonadjusted[13:426]) #removing trend is effective
 acf(inflation.ts.trendseasonadjusted[12:426], main= "Inflation Series Trend & Seasonality Adjusted")
 pacf(inflation.ts.trendseasonadjusted[12:426], main="Inflation Series Trend & Seasonality Adjusted")
 
-
 #Dickey-Fuller test
 #he null hypothesis is that there is a unit root, δ = 0 {\displaystyle \delta =0} \delta = 0. 
 adf.test(inflation.ts.trendseasonadjusted[12:426])
