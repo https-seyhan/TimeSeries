@@ -13,7 +13,6 @@ macrodata <-read.csv("macro_data.csv", sep=",", header=TRUE)
 summary(macrodata)
 
 macrodata.ts.cpi <- ts(macrodata$cpi, start=c(1978,1), freq=12)
-
 macrodata.ts.cpi.decomp <- decompose(macrodata.ts.cpi, "additive")
 plot(macrodata.ts.cpi.decomp)
 
