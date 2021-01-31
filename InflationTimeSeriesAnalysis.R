@@ -255,7 +255,6 @@ plot(browsers.ts.Internet.Explorer.8.0diff1.decomp)
 browsers.ts.Internet.Explorer.8.0diff1.decomp <- decompose(browsers.ts.Internet.Explorer.8.0diff1, "mult")
 plot(browsers.ts.Internet.Explorer.8.0diff1.decomp)
 
-
 #Remove trend component.
 browsers.ts.Internet.Explorer.8.0diff1.trendadjusted <- browsers.ts.Internet.Explorer.8.0diff1- browsers.ts.Internet.Explorer.8.0diff1.decomp$trend
 plot(browsers.ts.Internet.Explorer.8.0diff1)
