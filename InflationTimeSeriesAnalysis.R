@@ -24,7 +24,6 @@ plot.ts(macrodata.ts.inflation); abline(reg=lm(macrodata.ts.inflation ~ New.Infl
 var(macrodata.ts.inflation)
 sd(macrodata.ts.inflation )
 plot.ts(macrodata.ts.inflation)
-
 plot(stl(macrodata.ts.inflation, 'periodic'))
 
 #Decompose Analysis
