@@ -141,7 +141,6 @@ pacf(rawinflation.ar$res[12:426])
 #mean
 mean(macrodata.ts.inflation)
 
-
 #Order of AR
 rawinflation.ar$order
 
