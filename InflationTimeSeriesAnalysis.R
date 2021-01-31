@@ -26,7 +26,6 @@ plot.ts(macrodata.ts.inflation)
 plot(stl(macrodata.ts.inflation, 'periodic'))
 
 #Decompose Analysis
-
 inflation.ts.decomp <- decompose(macrodata.ts.inflation, "mult")
 plot(inflation.ts.decomp)
 
