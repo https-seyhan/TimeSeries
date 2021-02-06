@@ -32,7 +32,6 @@ acf(cba_y.ts.0diff1 , lag.max= 30, main="ACF of First Difference Shares" )
 adf.test(cba_y.ts.0diff1)
 
 ARIMA.fitshare <- Arima(cba_y.ts, order=c(1,1,1)) 
-
 acf(ARIMA.fitshare$res, main="ARIMA ACF(1,1,1)")
 pacf(ARIMA.fitshare$res,  main="ARIMA PACF(1,1,1)")
 summary(ARIMA.fitshare)
