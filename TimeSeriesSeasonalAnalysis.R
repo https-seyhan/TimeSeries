@@ -40,7 +40,6 @@ summary(ARIMA.fitshare)
 # Sesonal ARIMA
 ARIMAfitShareSARIMA <- Arima(cba_y.ts, order=c(14,1,2), seasonal= list(order=c(1,1,1), period=7))
 tsdisplay(residuals(ARIMAfitShareSARIMA),  main="SARIMA(30,1,1)(1,1,1) with 7 periods per season")
-
 AIC(ARIMAfitShareSARIMA)
 
 SARIMAfitShareResiduals <- residuals(ARIMAfitShareSARIMA)
