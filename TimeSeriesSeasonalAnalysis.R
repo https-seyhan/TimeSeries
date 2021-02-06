@@ -20,7 +20,6 @@ summary(cba_y.ts)
 acf(cba_y.ts)
 #PACF
 pacf(cba_y.ts)
-
 #Dickey-Fuller test of the time series
 adf.test(cba_y.ts)
 
