@@ -18,7 +18,6 @@ summary(cba_y.ts)
 
 #ACF 
 acf(cba_y.ts)
-
 #PACF
 pacf(cba_y.ts)
 
