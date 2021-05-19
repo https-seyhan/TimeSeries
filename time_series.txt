@@ -13,7 +13,6 @@ ax.lines[0].set_alpha(0.3)
 
 https://ourcodingclub.github.io/tutorials/pandas-time-series/
 https://medium.com/unit8-machine-learning-publication/darts-time-series-made-easy-in-python-5ac2947a8878
-
 https://www.bounteous.com/insights/2020/09/15/forecasting-time-series-model-using-python-part-two/
 
 
