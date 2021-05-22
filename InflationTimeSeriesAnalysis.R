@@ -82,7 +82,6 @@ adf.test(inflation.ts.trendseasonadjusted[12:426])
 adf.test(inflation.ts.trendseasonadjusted[12:426], k=1)
 
 acf(inflation.ts.trendseasonadjusted[12:426], lag.max = 60)
-
 #ACF PACF
 acf(macrodata.ts.inflation, lag.max = 60)
 pacf(macrodata.ts.inflation, main="Inflation Series")
