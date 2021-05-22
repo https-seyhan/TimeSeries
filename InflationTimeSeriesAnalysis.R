@@ -88,7 +88,6 @@ pacf(macrodata.ts.inflation, main="Inflation Series")
 
 #MODELS For Inflation#
 #ARMA##############################################################
-
 fitInflationARMA <- Arima(macrodata.ts.inflation, order=c(1,0,1))
 summary(fitInflationARMA)
 Box.test(residuals(fitInflationARMA ), lag=24, fitdf=4, type="Ljung")
