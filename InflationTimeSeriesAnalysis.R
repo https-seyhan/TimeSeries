@@ -336,7 +336,6 @@ acf(resid(BrowserVAR )[,1], main="Explorer 8 VAR(16)")
 acf(resid(BrowserVAR )[,2], main="Other Internet Browsers VAR(16)")
 summary(BrowserVAR )
 
-
 coef(BrowserVAR$ )
 
 resid(BrowserVAR)
