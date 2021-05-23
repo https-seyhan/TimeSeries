@@ -286,7 +286,6 @@ Acf(residuals(ARIMA.fitExplorer8), main="ARIMA ACF(1,1,30)")
 acf(ARIMA.fitExplorer8$res, main="ARIMA ACF(1,1,30)")
 pacf(ARIMA.fitExplorer8$res,  main="ARIMA PACF(1,1,30)")
 
-
 ARIMA.fitExplorer8 <- Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,7)) 
 
 summary(ARIMA.fitExplorer8)
