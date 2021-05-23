@@ -289,7 +289,6 @@ pacf(ARIMA.fitExplorer8$res,  main="ARIMA PACF(1,1,30)")
 
 
 
-
 ARIMA.fitExplorer8 <- Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,7)) 
 
 summary(ARIMA.fitExplorer8)
