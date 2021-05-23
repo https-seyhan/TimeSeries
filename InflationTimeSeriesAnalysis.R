@@ -325,7 +325,6 @@ plot(browsers.ts.other.diff1)
 
 VARselect(cbind(browsers.ts.Internet.Explorer.8.0diff1,browsers.ts.other.diff1), lag.max = 30, type = "trend")$selection
 
-
 BrowserVAR <- VAR(cbind(browsers.ts.Internet.Explorer.8.0,browsers.ts.other) , p=16, type="trend")
 
 #Perform serial test to choose rigth p value.
