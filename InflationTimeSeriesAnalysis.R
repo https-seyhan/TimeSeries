@@ -328,7 +328,6 @@ VARselect(cbind(browsers.ts.Internet.Explorer.8.0diff1,browsers.ts.other.diff1),
 BrowserVAR <- VAR(cbind(browsers.ts.Internet.Explorer.8.0,browsers.ts.other) , p=16, type="trend")
 
 #Perform serial test to choose rigth p value.
-
 serial.test(BrowserVAR , lags.pt=30, type="PT.asymptotic") #we don't reject AR(16)
 
 acf(resid(BrowserVAR )[,1], main="Explorer 8 VAR(16)")
