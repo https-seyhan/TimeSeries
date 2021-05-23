@@ -272,7 +272,6 @@ Acf(residuals(ARIMA.fitExplorer8), main="ARIMA ACF(1,1,30)")
 acf(ARIMA.fitExplorer8$res, main="ARIMA ACF(1,1,30)")
 pacf(ARIMA.fitExplorer8$res,  main="ARIMA PACF(1,1,30)")
 
-
 Acf(residuals(ARIMA.fitExplorer8), main="ARIMA ACF(1,1,30)")
 Box.test(residuals(ARIMA.fitExplorer8), lag=24, fitdf=4, type="Ljung")
 
