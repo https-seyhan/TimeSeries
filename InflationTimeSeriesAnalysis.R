@@ -317,7 +317,6 @@ forecast(fitExplorer8SARIMA, h=7)
 
 
 
-
 #VAR MODEL##################################################
 browsers.ts.other <- ts(browsers$Other, freq = 7)
 
