@@ -144,7 +144,6 @@ acf(rawinflation.ar$res[13:415])
 acf(rawinflation.ar$res[-(1:rawinflation.ar$order)])
 
 #SARIMA MODEL###########################################################
-
 fitInflationSARIMA <- Arima(macrodata.ts.inflation, order=c(1,1,1), seasonal= list(order=c(1,1,1), period=12))
 tsdisplay(residuals(fitInflationSARIMA),  main="SARIMA(1,1,1)(1,1,1) with 7 periods per season")
 
