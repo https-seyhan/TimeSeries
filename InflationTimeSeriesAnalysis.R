@@ -256,7 +256,6 @@ sd(browsers.ts.Internet.Explorer.8.0.seasonjusted)
 
 ###################################################################################
 #MODELs FOR PART 2
-
 ARIMA.fitExplorer8 <- Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,1)) 
 
 acf(ARIMA.fitExplorer8$res, main="ARIMA ACF(1,1,1)")
