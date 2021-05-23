@@ -232,7 +232,6 @@ sd(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted[6:1365])
 acf(browsers.ts.Internet.Explorer.8.0, lag.max=30 )
 acf(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted[6:1365])
 
-
 #Decompose First Difference Data
 
 #Additive Decomposition of Explorer 8.0
