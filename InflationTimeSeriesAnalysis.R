@@ -186,7 +186,6 @@ summary(browsers.ts.Internet.Explorer.8.0diff1)
 
 #ACF 
 acf(browsers.ts.Internet.Explorer.8.0diff1, lag.max= 30, main="ACF of First Difference Internet Explorer 8 Market Share" )
-
 adf.test(browsers.ts.Internet.Explorer.8.0diff1)
 
 #ACF refuses to die out and peristetly high. So. take first difference.
