@@ -296,7 +296,6 @@ acf(ARIMA.fitExplorer8$res, main="ARIMA ACF(1,1,7)")
 pacf(ARIMA.fitExplorer8$res,  main="ARIMA PACF(1,1,7)")
 
 #SARIMA Model
-
 ARIMAfitExplorer8SARIMA <- Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,1), seasonal= list(order=c(1,1,1), period=7))
 tsdisplay(residuals(ARIMAfitExplorer8SARIMA),  main="SARIMA(1,1,1)(1,1,1) with 7 periods per season")
 
