@@ -47,5 +47,4 @@ tsdisplay(SARIMAfitShareResiduals)
 Box.test(SARIMAfitShareResiduals, lag=30, fitdf=7, type="Ljung")
 
 plot(forecast(ARIMAfitShareSARIMA, h=7))
-
 forecast(ARIMAfitShareSARIMA, h=7)
