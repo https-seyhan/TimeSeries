@@ -126,6 +126,7 @@ plot(forecast(fitInflationARIMA))
 forecast(fitInflationARIMA) #prin out forecasts and 95% intervals
 
 ################################################################################
+
 rawinflation.ar<-ar(macrodata.ts.inflation, method="mle")
 rawinflation.ar
 plot(rawinflation.ar$res)
