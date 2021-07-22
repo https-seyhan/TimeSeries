@@ -392,7 +392,6 @@ summary(GARCHbrowsers.ts.Internet.Explorer.8.0)
 
 GARCHbrowsers.ts.Internet.Explorer.8.0.res <- resid(GARCHbrowsers.ts.Internet.Explorer.8.0)[-1]
 
-
 acf(GARCHbrowsers.ts.Internet.Explorer.8.0.res[5:1366], main="Residuals from the GARCH(0,2) Model")
 acf(GARCHbrowsers.ts.Internet.Explorer.8.0.res[5:1366]^2, main="Residual Squares from the GARCH(0,2) Model")
 
