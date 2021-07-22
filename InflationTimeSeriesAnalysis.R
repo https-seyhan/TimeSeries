@@ -394,7 +394,6 @@ GARCHbrowsers.ts.Internet.Explorer.8.0.res <- resid(GARCHbrowsers.ts.Internet.Ex
 acf(GARCHbrowsers.ts.Internet.Explorer.8.0.res[5:1366], main="Residuals from the GARCH(0,2) Model")
 acf(GARCHbrowsers.ts.Internet.Explorer.8.0.res[5:1366]^2, main="Residual Squares from the GARCH(0,2) Model")
 
-
 GARCHbrowsers.ts.Internet.Explorer.8.0 <- garch(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1))
 
 #Obtain confidence intervals of coeffiencts of fitted model
