@@ -305,6 +305,7 @@ tsdisplay(residuals(ARIMAfitExplorer8SARIMA), main="SARIMA(1,1,30)(1,1,1) with 7
 AIC(Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,30), seasonal= list(order=c(1,1,1), period=7)))
 
 fitExplorer8SARIMA <- Arima(browsers.ts.Internet.Explorer.8.0diff1, order=c(1,1,30), seasonal= list(order=c(1,1,1), period=7))
+
 SARIMAExplorer8Residuals <- residuals(fitExplorer8SARIMA)
 tsdisplay(SARIMAExplorer8Residuals)
 Box.test(SARIMAExplorer8Residuals, lag=30, fitdf=7, type="Ljung")
