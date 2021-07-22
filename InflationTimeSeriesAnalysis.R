@@ -364,7 +364,6 @@ browsers.ts.other.diff1 <- diff(browsers.ts.other, differences=1)
 
 BrowserVAR_Training <- VAR(cbind(browsers.ts.Internet.Explorer.8.0,browsers.ts.other) , p=16, type="trend")
 
-
 fcst_Training <- forecast(BrowserVAR_Training, n.ahead=7 )
 plot(fcst_Training, xlab="Time in Days")
 fcst_Training
