@@ -354,7 +354,6 @@ acf(browsers.ts.Internet.Explorer.8.0 )
 adf.test(browsers.ts.Internet.Explorer.8.0)
 
 browsers.ts.Internet.Explorer.8.0diff1 <- diff(browsers.ts.Internet.Explorer.8.0, differences=1)
-
 browsers.ts.other <- ts(browsers$Other, freq = 7)
 
 #take the differences of other internet bowsers
