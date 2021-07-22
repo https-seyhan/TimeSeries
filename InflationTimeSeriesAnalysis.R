@@ -365,7 +365,6 @@ plot(fcst_Training, xlab="Time in Days")
 fcst_Training
 
 #ARCH MODEL######################
-
 browsers <-read.csv("browsermarket01.csv", sep=",", header=TRUE)
 
 #make time series data
