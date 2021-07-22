@@ -383,7 +383,6 @@ acf(browsers.ts.Internet.Explorer.8.0diff1 - mean(browsers.ts.Internet.Explorer.
 #Model GARCH
 
 GARCHbrowsers.ts.Internet.Explorer.8.0 <- garch(browsers.ts.Internet.Explorer.8.0diff1, order=c(0,2))
-
 #Obtain confidence intervals of coeffiencts of fitted model
 t(confint(GARCHbrowsers.ts.Internet.Explorer.8.0))
 
