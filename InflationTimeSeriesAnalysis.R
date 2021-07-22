@@ -189,7 +189,6 @@ acf(browsers.ts.Internet.Explorer.8.0diff1, lag.max= 30, main="ACF of First Diff
 adf.test(browsers.ts.Internet.Explorer.8.0diff1)
 
 #ACF refuses to die out and peristetly high. So. take first difference.
-
 #So, take the first difference
 browsers.ts.Internet.Explorer.8.0diff1 <- diff(browsers.ts.Internet.Explorer.8.0, differences=1)
 plot.ts(browsers.ts.Internet.Explorer.8.0)
