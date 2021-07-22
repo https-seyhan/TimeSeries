@@ -370,7 +370,6 @@ fcst_Training
 browsers <-read.csv("browsermarket01.csv", sep=",", header=TRUE)
 
 #make time series data
-
 browsers.ts.Internet.Explorer.8.0 <- ts(browsers$Internet.Explorer.8.0, freq = 7)
 summary(browsers.ts.Internet.Explorer.8.0)
 
