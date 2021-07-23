@@ -4,7 +4,6 @@ data.index = df.Date_Time()
 pd.date_range('2015-07-03', periods=8)
 
 rolling = goog.rolling(365, center=True)
-
 data = pd.DataFrame({'input': goog,
                      'one-year rolling_mean': rolling.mean(),
                      'one-year rolling_std': rolling.std()})
