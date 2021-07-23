@@ -138,7 +138,6 @@ mean(macrodata.ts.inflation)
 
 #Order of AR
 rawinflation.ar$order
-
 #There is no observation before t=13
 acf(rawinflation.ar$res[13:415])
 acf(rawinflation.ar$res[-(1:rawinflation.ar$order)])
