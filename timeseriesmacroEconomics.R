@@ -11,6 +11,7 @@ macrodata <- read.dta ("macro_data.dta")
 summary(macrodata)
 #Use this as the time series created.
 plot(macrodata$cpi, macrodata$month)
+
 #cpi time series
 macrodata.ts.cpi <- ts(macrodata$cpi, start=c(1978,1), freq=12)
 summary(macrodata.ts.cpi)
