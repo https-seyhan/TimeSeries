@@ -36,7 +36,6 @@ acf(ARIMA.fitshare$res, main="ARIMA ACF(1,1,1)")
 pacf(ARIMA.fitshare$res,  main="ARIMA PACF(1,1,1)")
 summary(ARIMA.fitshare)
 
-
 #SARIMA model
 # Sesonal ARIMA
 ARIMAfitShareSARIMA <- Arima(cba_y.ts, order=c(14,1,2), seasonal= list(order=c(1,1,1), period=7))
