@@ -13,7 +13,7 @@ setwd("C:/Applied Business Forecasting")
 cba_y <-read.csv("cba_1y.csv", sep=",", header=TRUE)
 summary(cba_y)
 
-cba_y.ts <- ts(cba_y$Last, freq = 7)
+cba_y.ts <- ts(cba_y$Last, freq = 7) # Seven days frequency
 summary(cba_y.ts)
 
 #ACF 
