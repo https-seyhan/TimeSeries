@@ -80,7 +80,6 @@ pacf(inflation.ts.trendseasonadjusted[12:426], main="Inflation Series Trend & Se
 #he null hypothesis is that there is a unit root, δ = 0 {\displaystyle \delta =0} \delta = 0. 
 adf.test(inflation.ts.trendseasonadjusted[12:426])
 adf.test(inflation.ts.trendseasonadjusted[12:426], k=1)
-
 acf(inflation.ts.trendseasonadjusted[12:426], lag.max = 60)
 
 #ACF PACF
