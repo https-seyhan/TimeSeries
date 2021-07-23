@@ -375,8 +375,7 @@ plot.ts(browsers.ts.Internet.Explorer.8.0diff1)
 #Check If there is Conditional Heteroskeasticity
 acf(browsers.ts.Internet.Explorer.8.0diff1 - mean(browsers.ts.Internet.Explorer.8.0diff1)^2, main="Squared Mean Adjusted Explorer 8")
 
-#Model GARCH
-
+#Model GARC
 GARCHbrowsers.ts.Internet.Explorer.8.0 <- garch(browsers.ts.Internet.Explorer.8.0diff1, order=c(0,2))
 #Obtain confidence intervals of coeffiencts of fitted model
 t(confint(GARCHbrowsers.ts.Internet.Explorer.8.0))
