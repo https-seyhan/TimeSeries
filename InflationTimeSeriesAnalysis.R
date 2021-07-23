@@ -148,7 +148,6 @@ fitInflationSARIMA <- Arima(macrodata.ts.inflation, order=c(1,1,1), seasonal= li
 tsdisplay(residuals(fitInflationSARIMA),  main="SARIMA(1,1,1)(1,1,1) with 7 periods per season")
 
 summary(fitInflationSARIMA)
-
 fitInflationSARIMA <- Arima(macrodata.ts.inflation, order=c(12,1,1), seasonal= list(order=c(12,1,1), period=12))
 tsdisplay(residuals(fitInflationSARIMA),  main="SARIMA(12,1,1)(12,1,1) with 12 periods per season")
 
