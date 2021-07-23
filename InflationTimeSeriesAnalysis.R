@@ -224,7 +224,6 @@ summary(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted)
 sd(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted[6:1365]) 
 
 #Multiplicative Depomposition produces less variance. So better to use them
-
 #ACF 
 acf(browsers.ts.Internet.Explorer.8.0, lag.max=30 )
 acf(browsers.ts.Internet.Explorer.8.0.trendseasonadjusted[6:1365])
