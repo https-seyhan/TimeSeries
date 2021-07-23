@@ -203,7 +203,6 @@ plot(browsers.ts.Internet.Explorer.8.0.decomp)
 New.browser8.0 <- time(browsers.ts.Internet.Explorer.8.0.decomp)
 plot.ts(browsers.ts.Internet.Explorer.8.0); abline(reg=lm(browsers.ts.Internet.Explorer.8.0 ~ New.browser8.0))
 var(New.browser8.0 )
-
 plot(stl(browsers.ts.Internet.Explorer.8.0, 'periodic'))
 
 #Remove trend component.
